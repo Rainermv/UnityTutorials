@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 135973388851512418}
   - component: {fileID: 23137428291969780}
   - component: {fileID: 54557267302905638}
-  - component: {fileID: 114709465350341810}
+  - component: {fileID: 114045262995609796}
   m_Layer: 0
   m_Name: Proton
   m_TagString: Untagged
@@ -58,7 +58,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 91a0192a989be7a4c952d245b866a8a1, type: 2}
+  - {fileID: 2100000, guid: 88fcb146cad328d459061901b2d3bf43, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -100,7 +100,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &114709465350341810
+--- !u!114 &114045262995609796
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -108,10 +108,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1374972577470582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b06ee496f83ac1d4d835a3e70d91bcc1, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6d9cf3c36c56245ae933f9aa23dc7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attractionForce: 10
+  attractionForce: 1
 --- !u!135 &135973388851512418
 SphereCollider:
   m_ObjectHideFlags: 1
